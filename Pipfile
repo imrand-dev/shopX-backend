@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+black = "*"
+flake8 = "*"
+drf-spectacular = "*"
+djangorestframework-simplejwt = "*"
+django-dirtyfields = "*"
+django-cors-headers = "*"
+django-simple-history = "*"
+django-autoslug = "*"
+django-debug-toolbar = "*"
+django-silk = "*"
+python-decouple = "*"
+django-versatileimagefield = "*"
+django-phonenumber-field = {extras = ["phonenumberslite"], version = "*"}
+babel = "*"
+setuptools = "*"
+python-magic-bin = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
