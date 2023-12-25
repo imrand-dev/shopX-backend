@@ -24,6 +24,8 @@ django-phonenumber-field = {extras = ["phonenumberslite"], version = "*"}
 babel = "*"
 setuptools = "*"
 python-magic-bin = "*"
+pytest = "*"
+django-pytest = "*"
 
 [dev-packages]
 
