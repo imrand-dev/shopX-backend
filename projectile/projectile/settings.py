@@ -103,6 +103,8 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "projectile.wsgi.application"
 
+AUTH_USER_MODEL = "core.User"
+
 REST_FRAMEWORK = {
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
     'COERCE_DECIMAL_TO_STRING': False,
